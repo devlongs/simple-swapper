@@ -11,7 +11,7 @@ async function main() {
   );
 
   const latestPrice = await priceFeed.getLatestPrice();
-  console.log("The latest price is:", latestPrice);
+  console.log("The latest price is:", latestPrice.toString());
 }
 
 main().catch((error) => {
